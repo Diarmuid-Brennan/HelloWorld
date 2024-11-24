@@ -1,0 +1,32 @@
+# Eclipse specific
+.classpath
+.project
+.settings/
+
+# Build output directories
+/build/
+/target/
+
+# Server-specific files
+.metadata/
+.recommenders/
+.externalToolBuilders/
+.apt_generated/
+
+# Local config files
+/.settings/org.eclipse.wst.common.component
+/.settings/org.eclipse.wst.common.project.facet.core.xml
+/.settings/org.eclipse.jdt.core.prefs
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency folders (if using Maven/Gradle)
+/WEB-INF/lib/
